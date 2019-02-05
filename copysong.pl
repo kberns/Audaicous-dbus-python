@@ -52,7 +52,7 @@ def cur_song():
 		song=re.sub("\s\s", " ", song)
 		song=re.sub("\s$", "", song)
 		return song
-	else
+	else:
 		return "audacious not running"
 if __name__ == "__main__":
 	import pygtk
